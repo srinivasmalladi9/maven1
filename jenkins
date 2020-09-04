@@ -1,0 +1,6 @@
+node
+{
+stage('ContinuousDownload_loans)
+{
+}
+}
