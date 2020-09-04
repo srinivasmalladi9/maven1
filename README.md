@@ -1,2 +1,2 @@
 # maven1
-new repo of mwaven
+new repo of maven
