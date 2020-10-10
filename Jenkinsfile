@@ -10,5 +10,6 @@ node('master')
     }
     stage('continuousdeployment')
     {
+        scp /home/ubuntu/.jenkins/workspace/scripted/webapp/target/webapp.war ubuntu@172.31.39.87:/var/lib/tomcat8/webapps/test.war
     }
 }
